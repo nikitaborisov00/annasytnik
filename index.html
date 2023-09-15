@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple landing page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <div class="container">
+      <div class="navbar-brand-wrapper d-flex w-100">
+        <img src="images/logo.svg" alt="Anna Sytnik">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="mdi mdi-menu navbar-toggler-icon"></span>
+        </button> 
+      </div>
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+            <div class="navbar-collapse-logo">
+              <img src="images/Group2.svg" alt="">
+            </div>
+            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#digital-marketing-section">Teaching</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback-section">Reviews</a>
+          </li>
+          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    </nav>   
+  </header>
+  <div class="banner" >
+    <div class="container">
+      <h1 class="font-weight-semibold">Growing knowledge</h1>
+      <h6 class="font-weight-normal text-muted pb-3">Расширь границы коммуникации</h6>
+      <div>
+        <button class="btn btn-opacity-success ml-1" onclick="window.location.href = 'https://api.whatsapp.com/send/?phone=79885679907&text&type=phone_number&app_absent=0';">WhatsApp</button>
+        <button class="btn btn-opacity-info ml-1" onclick="window.location.href = 'https://t.me/ann1_s17';">Telegram</button>
+      </div>
+      <img src="images/Group171.svg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="features-overview" id="features-section" >
+        <div class="content-header">
+          <h2>Преимущества работы со мной</h2>
+          <h6 class="section-subtitle text-muted">Некоторые способы, которые я использую в преподавание.</h6>
+        </div>
+        <div class="d-md-flex justify-content-between">
+          <div class="grid-margin d-flex justify-content-start">
+            <div class="features-width">
+              <img src="images/Group12.svg" alt="" class="img-icons">
+              <h5 class="py-3">Интерактивные<br>уроки</h5>
+              <p class="text-muted">На своих занятиях я использую сертифицированные кэмбриджские пособия, а также аудио и видео материалы, с помощью которых вы научитесь не только говорить на английском, но и понимать речь носителей языка. Также дополняю уроки интересными приложениями, с помощью которых проще запомнить новый материал или повторить уже пройденный.</p>
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-center">
+            <div class="features-width">
+              <img src="images/Group7.svg" alt="" class="img-icons">
+              <h5 class="py-3">Английский<br>для любого уровня и возраста</h5>
+              <p class="text-muted">Не знаете даже самых простых английских слов и боитесь начать? Это совсем не страшно и не сложно. Я беру студентов любого уровня и уже за три месяца занятий мы завершим начальный уровень изучения языка, и вы сможете: забронировать номер в отеле или пообщаться с официантом в ресторане на английском, познакомиться, рассказать о себе и коммуницировать на простые темы, а также будете знать и использовать в речи основные времена английского языка.
+                А самых маленьких учеников ждут песни и интересные задания в игровой форме с помощью которых они будут изучать язык с удовольствием.</p>
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-end">
+            <div class="features-width">
+              <img src="images/Group5.svg" alt="" class="img-icons">
+              <h5 class="py-3">Подготовка<br>к экзаменам</h5>
+              <p class="text-muted">Со мной вы сможете подготовиться и достойно сдать такие экзамены, как ВПР ЕГЭ ОГЭ или просто подтянуть успеваемость в школе.</p>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0">Немного<br>обо мне</h3>
+            <div class="col-lg-7 col-xl-6 p-0">
+              <p class="py-4 m-0 text-muted">Окончила Донской Государственный Технический университет по специальности переводчик-лингвист. Опыт преподавания английского языка 6 лет. Посетила множество лекций и семинаров по коммуникативному подходу к изучению языка и активно использую его в своих уроках.</p>
+              <p class="font-weight-medium text-muted">Уровень владения языком – С2 .</p>
+            </div>    
+          </div>
+          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+            <img src="images/Group1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
+            <img src="images/Group2.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
+            <h3 class="m-0">О моей<br>жизни.</h3>
+            <div class="col-lg-9 col-xl-8 p-0">
+              <p class="py-4 m-0 text-muted">Мечтала быть преподавателем английского языка с детства и именно поэтому подхожу с душой к своему делу, ведь для меня это не просто работа, а любимое занятие. В своих уроках я учитываю индивидуальные особенности, интересы и цели каждого ученика, поэтому с помощью моих занятий вы не только быстро заговорите на английском, но и никогда не заскучаете!</p>
+              <p class="pb-2 font-weight-medium text-muted"></p>
+            </div>
+            <button class="btn btn-info">Подробнее</button>
+          </div>
+        </div>
+      </section>     
+      <section class="case-studies" id="case-studies-section">
+        <div class="row grid-margin">
+          <div class="col-12 text-center pb-5">
+            <h2>Методика преподавания</h2>
+            <h6 class="section-subtitle text-muted">Вы можете узнать о принципах моей работы.</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-primary text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
+                      <button class="btn btn-white">Читать</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Для совсем маленьких</h6>
+                    <p>Познающих новое</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-warning text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
+                      <button class="btn btn-white">Читать</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Дошкольники и школьники</h6>
+                    <p>Подготовка и обучение</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-violet text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
+                      <button class="btn btn-white">Читать</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Абитуриентов и Студентов</h6>
+                    <p>Подготовака к экзаменам</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-success text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
+                      <button class="btn btn-white">Читать</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Взрослые</h6>
+                    <p>Повышение квалификции</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <section class="customer-feedback" id="feedback-section">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2>Что говорят мои ученики</h2>
+            <h6 class="section-subtitle text-muted m-0">Вы тоже можете оставить обратную связь.</h6>
+          </div>
+          <div class="owl-carousel owl-theme grid-margin">
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Занимались несколько лет, исправила ошибки и недочёты от предыдущего репетитора. Готовила и к огэ и к егэ, баллы по егэ очень хорошие, лучший репетитор, который у нас был.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Максим</h6>
+                    <h6 class="customer-designation text-muted m-0">Школьник</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Отличный репетитор, занятия проходят с легкостью и в дружеской атмосфере. За год занятий я смогла подготовиться к егэ по английскому, сдать его на высокий балл, и поступить в университет на бюджетное место! Анна Александровна обладает большим количеством учебной литературы, так что ученики получают много нужной, полезной и интересной информации.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">София</h6>
+                    <h6 class="customer-designation text-muted m-0">Возраст: 18 лет</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Мой уровень владения английским языком оказался недостаточным для успешной сдачи международного теста, поэтому я начал заниматься с Евгенией Александровной. Репетитор не только владеет английским языком на высоком профессиональном уровне, но еще и прекрасно его преподает.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Егвения</h6>
+                    <h6 class="customer-designation text-muted m-0">Бизнес консультат</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Молодой специалист, но очень грамотный. Отлично объясняет, предоставляет много материалов, пособий. У педагога большой опыт преподавания, занятия проходят интересно. Педагог даёт знания именно "живого" языка, разговорной речи. Уроками я доволен, и результат постепенно появляется, буду продолжать.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Александр</h6>
+                    <h6 class="customer-designation text-muted m-0">Возраст: 34 года</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Уроки проходят в интересной форме, она использует яркие запоминающиеся примеры и показывает, как употреблять новые слова с помощью разных ситуаций. Большую часть урока говорим на английском, но если нужно, она объясняет и на русском.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Валерия</h6>
+                    <h6 class="customer-designation text-muted m-0">Студент</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Мы очень довольны сотрудничеством с преподавателем русского языка Алите Владосовной. Грамотный педагог, объясняет учебный материал доступным языком. С Катей у них сложился контакт, общаются легко.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Екатерина</h6>
+                    <h6 class="customer-designation text-muted m-0">Дошкольник</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Анна Александровна оставила о себе очень приятное впечатление. Учусь в РАНХИГС, и требовалось устранить пробелы, а также подготовиться к пересдаче экзамена. Педагог очень понятно всё объясняла. Кроме того, был очень удобен формат занятий по скайпу. Подтянул свои знания, экзамен пересдал успешно.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Эрнест</h6>
+                    <h6 class="customer-designation text-muted m-0">Студент</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Мы часто путешествуем и нужно было, чтобы ребёнок с дества знал английский язык. Нам посоветовали обратиться к Анне Александровне за помощью. Очень нравится, что формат занятий дистанционный и ребёнок может заниматься в любой точке мира.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Мария</h6>
+                    <h6 class="customer-designation text-muted m-0">Возраст: 4 года</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Очень грамотный специалист. С первого занятия находит общий язык с учеником. Помогла моей дочери подтянуть знания до высокого уровня при сдаче ОГЭ меньше, чем за год занятий. Хочется отметить также пунктуальность. Отличный специалист.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Кирилл</h6>
+                    <h6 class="customer-designation text-muted m-0">Возраст: 14 лет</h6>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      <section class="contact-details" id="contact-details-section">
+        <div class="row text-center text-md-left">
+          <div class="grid-margin">
+            <img src="images/logo2.svg" alt="" class="pb-2">       
+          </div>
+          <div class="col-11 col-md-5 col-lg-3">
+            <h5 class="pb-2">Our Guidelines</h5>
+            <a href="#"><p class="m-0 pb-2">Terms</p></a>   
+            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
+            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
+            <a href="#"><p class="m-0 pt-1">Discover</p></a> 
+          </div>
+          <div class="col-11 col-md-5 col-lg-3 grid-margin">
+              <h5 class="pb-2">Контакты</h5>
+              <p class="text-muted">Анна Сытник<br>Ваш преподаватель по английскому языку</p>
+              <div class="d-flex justify-content-center justify-content-md-start">
+                <a href="https://api.whatsapp.com/send/?phone=79885679907&text&type=phone_number&app_absent=0"><span class="mdi mdi-whatsapp"></span></a>
+                <a href="https://t.me/ann1_s17"><span class="mdi mdi-telegram"></span></a>
+                <a href="#"><span class="mdi mdi-instagram"></span></a>
+              </div>
+          </div>
+        </div>  
+      </section>
+      <footer class="border-top">
+        <p class="text-center text-muted pt-4">Copyright © 2023<a href="https://cimes.ru/" class="px-1">by Cimes with &#10084;.</a>All rights reserved.</p>
+      </footer>
+      <!-- Modal for Contact - us Button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message</label>
+                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendors/aos/js/aos.js"></script>
+  <script src="js/landingpage.js"></script>
+</body>
+</html>
